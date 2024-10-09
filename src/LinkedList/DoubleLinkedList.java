@@ -25,5 +25,8 @@ public class DoubleLinkedList {
         }else{
             System.out.println("Element Not Found!!");
         }
+        dll.AddAtBeginning(node1,60);
+        dll.InsertInBetween(node1,70,3);
     }
+
 }
